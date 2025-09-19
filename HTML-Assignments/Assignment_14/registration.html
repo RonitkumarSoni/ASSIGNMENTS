@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>CodingGita Student Registration Form</h1>
+    <p>Please fill out the form below to register for the CodingGita MERN Stack Program.</p>
+
+    <form method="post" action="#">
+        <label for="name">Full Name :</label>
+        <input type="text" id="name" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+        <label for="email">Email : </label>
+        <input type="text" id="email" name="Email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="Password">Password : </label>
+        <input type="password" id="password" name="pwd" placeholder="Enter your password" required>
+        <br><br>
+
+
+        <label for="number">Mobile Number</label>
+        <input type="number" id="Mobile" name="Mobile" placeholder="Enter your Number" required>
+        <br><br>
+
+        <label>Gender : </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">others</label>
+        <br><br>
+
+        <label>Hobbies :</label>
+        <input type="checkbox" name="Hobbies" value="raeding">
+        <label for="Reading">Reading</label>
+        <input type="checkbox" name="Hobbies" value="coding">
+         <label for="Reading">coding</label>
+        <input type="checkbox" name="Hobbies" value="Sports">
+         <label for="Reading">Sports</label>
+        <input type="checkbox" name="Hobbies" value="Music">
+        <label for="Reading">Music</label>
+        <br><br>
+
+        <label >Date of Birth</label>
+        <input type="date" name="Date of Birth" value="Date of Birth">
+        <br><br>
+
+        <label >Upload Photo</label>
+        <input type="file" name="Photo" value="Upload Photo">
+        <br><br>
+
+        <select >
+            <option value="MERN Stack">MERN Stack</option>
+            <option value="DSA">DSA</option>
+            <option value="Web Development">Web Development</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address :</label>
+        <textarea name="address" id="address" rows="4" cols="40" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+
+        <label for="portfolio">Portfolio Website:</label>
+        <input type="url" name="portfolio" id="web" value="">
+        <br><br>
+
+
+        <label for="search">Search Intersets: </label>
+        <input type="search" name="search" id="search" placeholder="Search Box"><br><br>
+
+        <label for="time">Preferred Study Time: </label>
+        <input type="time" name="time" id="time" placeholder="hh:mm"><br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
