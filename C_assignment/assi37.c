@@ -1,20 +1,17 @@
 #include <stdio.h>
 int main(){
 
-    //Full Pyramid — Stars (centered)
+    // Reverse Left-Aligned Triangle (Stars)
 
     int n; 
     printf("Enter the number: ");
     scanf("%d",&n);
 
     for(int i=1; i<=n; i++){
-
-        for(int j=i; j<n; j++){
+        for(int j=1; j<i; j++){
             printf(" ");
-              
         }
-          
-        for(int k=1; k<=2*i-1; k++){
+        for(int k=n; k>=i; k--){
             printf("*");
         }
         printf("\n");

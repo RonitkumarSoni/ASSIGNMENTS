@@ -1,15 +1,18 @@
 #include <stdio.h>
 int main(){
 
-    //Inverted Right Angled Triangle (Numbers)
+    // Continous Alphabet (Square)
 
-    int n; 
+    int n;
     printf("Enter the number: ");
     scanf("%d",&n);
 
+    int a = 65;
+
     for(int i=1; i<=n; i++){
-        for(int j=1; j<=n+1-i; j++){
-            printf("%d ",j);
+        for(int j=1; j<=n; j++){
+            printf("%c ",a);
+            a = a + 1;
         }
         printf("\n");
     }
