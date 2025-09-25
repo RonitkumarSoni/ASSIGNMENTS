@@ -1,0 +1,42 @@
+
+
+.container{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-white{
+    height: 120px ;
+    width: 120px;
+    background-color: white;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-green{
+    height: 120px ;
+    width: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in{
+    height: 31px ;
+    width: 31px;
+    border: 1px solid black;
+    
+}
+
+
+
+
+

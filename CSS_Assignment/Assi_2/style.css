@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.calculator{
+    height: 80%;
+    width: 50%;
+    margin:auto;
+    background-color: black;
+    text-align: center;
+}
+
+.Result{
+    padding: 20px;
+    color: white;
+    text-align: end;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.buttons{
+    
+}

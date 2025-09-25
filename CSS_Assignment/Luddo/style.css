@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container{
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.card-blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.card-green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    display: flex;
+    
+}
+
+.card-yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
